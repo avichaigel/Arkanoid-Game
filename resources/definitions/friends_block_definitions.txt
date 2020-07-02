@@ -1,0 +1,11 @@
+# default values for blocks
+default height:250 width:250 stroke:color(black)
+
+# block definitions
+bdef symbol:z hit_points:2 fill:image(block_images/monica.png) fill-2:image(block_images/chandler.png)
+bdef symbol:l hit_points:2 fill:image(block_images/phoebe.jpg) fill-2:image(block_images/joey.jpg)
+bdef symbol:h hit_points:2 fill:image(block_images/rachel.jpg) fill-2:image(block_images/ross.png)
+
+# spacers definitions
+sdef symbol:- width:50
+

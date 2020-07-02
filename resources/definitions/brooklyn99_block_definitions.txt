@@ -1,0 +1,13 @@
+# default values for blocks
+default height:186 width:139
+
+# block definitions
+bdef symbol:a hit_points:1 fill:image(block_images/rosa.jfif)
+bdef symbol:b hit_points:1 fill:image(block_images/jake.jfif)
+bdef symbol:c hit_points:1 fill:image(block_images/holt.jfif)
+bdef symbol:d hit_points:1 fill:image(block_images/amy.jfif)
+bdef symbol:e hit_points:1 fill:image(block_images/charles.jfif)
+bdef symbol:f hit_points:1 fill:image(block_images/terry.jfif)
+
+# spacers definitions
+sdef symbol:- width:50

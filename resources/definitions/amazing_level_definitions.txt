@@ -1,0 +1,78 @@
+
+# Level 1
+# Image Background and images for blocks
+
+START_LEVEL
+level_name:I'll Be There For You
+ball_velocities:-8,8
+background:image(background_images/friends.png)
+paddle_speed:10
+paddle_width:160
+block_definitions:definitions/friends_block_definitions.txt
+blocks_start_x:25
+blocks_start_y:20
+row_height:25
+num_blocks:3
+START_BLOCKS
+-
+l--
+-
+-----z--
+-
+----------h--
+END_BLOCKS
+END_LEVEL
+
+# Level 2
+# Complicated pattern
+
+START_LEVEL
+level_name: Brooklyn 99
+ball_velocities:8,8
+background::image(background_images/brook99.jpg)
+paddle_speed:10
+paddle_width:250
+block_definitions:definitions/brooklyn99_block_definitions.txt
+blocks_start_x:25
+blocks_start_y:20
+row_height:25
+num_blocks:6
+START_BLOCKS
+a--
+---b--
+-
+-
+--c------e--
+-
+------d--
+-----------f--
+-
+
+END_BLOCKS
+END_LEVEL
+
+# Level 3
+# La casa de papel
+
+START_LEVEL
+level_name: La Casa De Papel
+ball_velocities:9,9, -8,8, 7,10
+background:image(background_images/casa.jpg)
+paddle_speed:10
+paddle_width:160
+block_definitions:definitions/standard_block_definitions.txt
+blocks_start_x:150
+blocks_start_y:150
+row_height:25
+num_blocks:30
+START_BLOCKS
+-
+-
+BBBBBBBBBB
+wwwwwwwwww
+rrrrrrrrrr
+-
+-
+
+END_BLOCKS
+END_LEVEL
